@@ -1,0 +1,22 @@
+{
+	"name"          : "Modularize",
+	"description"   : "Tool for using NodeJS modules in browser.",
+	// "homepage"      : "http://documentcloud.github.com/underscore/",
+	"keywords"      : ["modules", "browser", "commonjs", "bundle", "modularize", "uglify", "building", "package"],
+	"author"        : {
+        "name": "Damian Sosnowski",
+        "email": "sosnowski@inbox.com"
+    },
+	// "repository"    : {"type": "git", "url": "git://github.com/documentcloud/underscore.git"},
+	"main"          : "index.js",
+	"version"       : "0.8",
+	"bin" : {
+		"modularize"  : "bin/modularize.js"
+	},
+	"dependencies"  : {
+        "detective": "0.0.4",
+        "optimist": "0.3.1",
+        "uglify-js": "1.2.6",
+        "underscore": "1.3.1"
+    },
+}
