@@ -25,6 +25,7 @@ _________________________________________________
 -m - output will be minified using uglify-js
 -mh - output will be minified using more aggressive form of compression
 -w - active watch mode
+````
 
 Watch mode
 __________
